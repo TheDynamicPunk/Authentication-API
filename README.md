@@ -25,9 +25,11 @@ npm start
 {
 	"email": "",
 	"password": "",
-	"date": ""	//Optional
+	"date": ""
 }
 ```
+>**Date -** parameter is optional
+
 2. `/api/user/register` - POST
 ##### Body
 ```json
@@ -38,11 +40,13 @@ npm start
 	"date": ""	//Optional
 }
 ```
+>**Date -** parameter is optional
 ### Private Route
 `/api/user/login` - GET
 ##### Headers
 ```json
 {
-   "auth-token": ""    //Token value when logging in or registering
+	"auth-token": ""
 }
 ```
+>`auth-token` paste the token value you get while logging in or registering
