@@ -37,7 +37,7 @@ npm start
 	"name": "",
 	"email": "",
 	"password": "",
-	"date": ""	//Optional
+	"date": ""
 }
 ```
 >**Date -** parameter is optional
